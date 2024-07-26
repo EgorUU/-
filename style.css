@@ -1,0 +1,49 @@
+.target {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    transition: all 0.09s ease-in;
+    display: none;
+}
+body {
+    position: relative;
+}
+.wrapper-buttons button {
+    width: 250px;
+    height: 50px;
+    font-size: 1.3em;
+    font-family: "Inter" ,sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.wrapper-buttons button:nth-child(1) {
+    color: rgb(5, 142, 0);
+    background-color: #92e515;
+}
+.wrapper-buttons button:nth-child(2) {
+    color: rgb(242, 255, 0);
+    background-color: #e4bf1c;
+}
+.wrapper-buttons button:nth-child(3) {
+    color: red;
+    background-color: #592020;
+}
+.wrapper-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.wrapper {
+    max-width: 1910px;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header {
+    margin-bottom: 80px;
+    font-family: 'Courier New', sans-serif;
+}
