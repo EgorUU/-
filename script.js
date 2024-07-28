@@ -28,9 +28,12 @@ difficultyLevel.forEach((btn) => {
         }, time)
 
         block.addEventListener('click', () => {
-            clearInterval(interval)
-            console.log('Игра завершена')
             block.style.backgroundColor = 'black'
+            clearInterval(interval)
+            setTimeout(() => {
+                alert('Игра завершена')
+                location.reload()
+            }, 1500)
         })
 
         //
